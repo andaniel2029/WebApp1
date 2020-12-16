@@ -1,0 +1,28 @@
+{
+  "name": "class-scheduler",
+  "version": "1.0.0",
+  "description": "SE 3316 Lab 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddizon3/se3316-ddizon3-lab3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddizon3/se3316-ddizon3-lab3/issues"
+  },
+  "homepage": "https://github.com/ddizon3/se3316-ddizon3-lab3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "lowdb": "^1.0.0",
+    "nedb": "^1.8.0",
+    "path": "^0.12.7"
+  }
+}

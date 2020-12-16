@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Timetable</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" href="img/westernlogo.png">
+    </head>
+
+    <body>
+        <h1>
+            <img src="img/western.png" id="top" width="240"; height="100";/>
+            <small>Undergraduate Fall/Winter Academic Timetable 2019-20</small>
+        </h1>
+        <div class="schedule">
+            <div class="section">
+                <form></form>
+                    <h3 for="create">Schedule Name: </h3>
+                    <input id="scheduleName" type="text" name="create"><br>
+                    <input type="submit" class="button" id="create" value="Create Schedule" onclick="createSchedule()">
+                    <button type="button" id="create" onclick="getSchedule()">Search</button>
+                    <button type="button" id="delete" onclick="deleteSchedule()">Delete</button>
+                </form><br>
+                
+                <h3>Schedule: </h3>
+                <div id="schedule"></div><br/>
+                <button type="button" id="save" onclick="gotoCount()">View All</button>      
+                <button type="button" id="delete" onclick="deleteAll()">Delete All</button>
+                <button type="button" id="save" onclick="saveSchedule()">Save to Schedule</button>
+            </div>
+            <div class="section">
+                <h3>Subject Code: </h3>
+                <select id="subject" name="subject">
+                </select>
+                <h3>Class Names:</h3>
+                <div id="classNames"></div>
+                <h3>Course Code: </h3>
+                <select id="codes" name="codes">
+                </select>
+                <h3>Course Component: </h3>
+                <select id="component" name="component">
+                    <option selected value></option>
+                    <option value="LEC">LEC</option>
+                    <option value="LAB">LAB</option>
+                    <option value="TUT">TUT</option>
+                </select>
+            </div>
+            <div class="section">
+                <h3>Class Name:</h3>
+                <h4 id="className"></h4>
+                <div id="timetable">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>

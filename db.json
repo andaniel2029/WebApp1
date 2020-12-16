@@ -1,0 +1,18 @@
+{
+  "schedules": [
+    {
+      "name": "test",
+      "courses": [
+        {
+          "subject": "ARABIC",
+          "course": "1035",
+          "component": "LEC"
+        }
+      ]
+    },
+    {
+      "name": "test1",
+      "courses": []
+    }
+  ]
+}
